@@ -1,0 +1,2 @@
+# modplugin
+Friend Finder
