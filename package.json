@@ -2,15 +2,16 @@
   "name": "modplugin",
   "version": "1.0.0",
   "description": "Friend Finder",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bliff182/modplugin.git"
   },
-  "author": "Mike Bither",
+  "author": "Michael Bither",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bliff182/modplugin/issues"
