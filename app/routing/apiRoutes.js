@@ -7,8 +7,9 @@ module.exports = function(app) {
     });
 
     // POST - will be used to handle incoming survey results and compatibility logic
-    // app.post('/api/friends', function(req, res) {
-
-    // });
+    app.post('/api/friends', function(req, res) {
+        friendData.push(req.body);
+        // console.log(req.body);
+    });
 
 };
