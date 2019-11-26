@@ -1,13 +1,13 @@
-var path = require('path');
+const path = require('path');
 
-module.exports = function(app) {
+module.exports = (app) => {
 
-    app.get('/survey', function(req, res) {
-        res.sendFile(path.join(__dirname, '../public/survey.html'));
-    });
+   app.get('/survey', (req, res) => {
+      res.sendFile(path.join(__dirname, '../public/survey.html'));
+   });
 
-    app.get('*', function(req, res) {
-        res.sendFile(path.join(__dirname, '../public/home.html'));
-    });
+   app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, '../public/home.html'));
+   });
 
 };
